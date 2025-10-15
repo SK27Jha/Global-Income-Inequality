@@ -5,7 +5,7 @@ https://github.com/user-attachments/assets/11b69aab-ca47-4811-82bd-3d5c406304b1
 
 # 🌍 Global Income Inequality Dashboard
 
-An advanced data visualization and analytics dashboard** that explores global income inequality (2000–2023)across 15 countries.  
+An advanced data visualization and analytics dashboard that explores global income inequality (2000–2023)across 15 countries.  
 Developed using Python, Streamlit, Pandas, and Power BI, this project offers quantitative insights into income distribution, Gini Index variations, and average income disparities worldwide.
 
 > “Inequality is not just about income — it’s about opportunity. This dashboard aims to make those differences visible.”
@@ -22,8 +22,8 @@ It provides interactive visual insights on how the income gap and economic inequ
 | Metric | Insight |
 |---------|----------|
 | **Total Countries Analyzed** | 15 |
-| **Total Data Points (2000–2023) | 4,812 |
-| **Average Global Gini Index (2000–2023) | 38.7 |
+| **Total Data Points (2000–2023)** | 4,812 |
+| **Average Global Gini Index (2000–2023)** | 38.7 |
 | **Lowest Gini Index** | 23.1 — *Slovenia (2021)* |
 | **Highest Gini Index** | 64.8 — *South Africa (2018)* |
 | **Global Average Income (2023)** | \$18,420 |
