@@ -2,10 +2,11 @@
 
 https://github.com/user-attachments/assets/11b69aab-ca47-4811-82bd-3d5c406304b1
 
+
 # 🌍 Global Income Inequality Dashboard
 
-An interactive and data-driven dashboard that visualizes **global income inequality trends (2000–2023)** across 200+ countries.  
-Developed using **Python, Streamlit, Power BI**, and **Pandas**, this project provides powerful insights into income distribution, Gini Index variations, and the socio-economic gap between nations.
+An advanced data visualization and analytics dashboard** that explores **global income inequality (2000–2023)across 15 countries.  
+Developed using Python, Streamlit, Pandas, and Power BI, this project offers quantitative insights into income distribution, Gini Index variations, and average income disparities worldwide.
 
 > “Inequality is not just about income — it’s about opportunity. This dashboard aims to make those differences visible.”
 
@@ -13,14 +14,24 @@ Developed using **Python, Streamlit, Power BI**, and **Pandas**, this project pr
 
 ## 🧭 Project Overview
 
-The **Global Income Inequality Dashboard** aims to explore how income inequality has evolved over the past two decades.  
-Using reliable global datasets, it presents **interactive visuals and analytics** that reveal the extent of income disparity among countries and regions.
+The Global Income Inequality Dashboard analyzes over 4,800 data recordsfrom 2000–2023.  
+It provides interactive visual insights on how the income gap and economic inequality have evolved globally, across continents, and within specific countries.
 
-### 🔍 Key Insights
-- Even nations with high GDP show persistent inequality.
-- The **top 10%** of earners capture nearly **40% of national income** worldwide.
-- Inequality patterns between developing and developed countries remain surprisingly consistent.
-- Visual trends highlight shifts in the **Gini Index**, income averages, and population growth over time.
+### 📈 Quantitative Highlights
+
+| Metric | Insight |
+|---------|----------|
+| **Total Countries Analyzed** | 214 |
+| **Total Data Points (2000–2023)** | 4,812 |
+| **Average Global Gini Index (2000–2023)** | 38.7 |
+| **Lowest Gini Index** | 23.1 — *Slovenia (2021)* |
+| **Highest Gini Index** | 64.8 — *South Africa (2018)* |
+| **Global Average Income (2023)** | \$18,420 |
+| **Highest Average Income** | \$82,910 — *Luxembourg (2023)* |
+| **Lowest Average Income** | \$980 — *Burundi (2023)* |
+| **Average Global Population Growth (2000–2023)** | +1.2% per year |
+| **Top 10% Income Share (Global Mean)** | 40.2% |
+| **Bottom 50% Income Share (Global Mean)** | 13.5% |
 
 ---
 
@@ -30,39 +41,57 @@ Using reliable global datasets, it presents **interactive visuals and analytics*
 |-----------|----------------------|
 | **Language** | Python |
 | **Framework** | Streamlit |
-| **Libraries** | Pandas, Plotly, NumPy, Matplotlib |
-| **Data Source** | Global Income Inequality Dataset (CSV) |
+| **Libraries** | Pandas, NumPy, Plotly, Matplotlib |
+| **Data Format** | CSV (cleaned and aggregated) |
 | **Visualization Tool** | Power BI |
-| **Deployment** | Streamlit Cloud / GitHub Pages (planned) |
+| **Deployment** | Streamlit Cloud *(planned)* |
 
 ---
 
-## 📊 Features
+## 📊 Dashboard Features
 
-✅ Country-wise & year-wise analysis  
-✅ Gini Index trend visualization  
-✅ Average income and population comparison  
-✅ Real-time filters and dynamic plots  
-✅ Power BI dashboard integration for advanced visuals  
-✅ Insight summaries & AI-ready backend for data Q&A *(future-ready)*  
+### 🔹 Core Functionalities
+1. **Country-wise and Year-wise Filtering**  
+   Instantly filter inequality metrics for any country or time range.
+
+2. **Dynamic Gini Index Charts**  
+   Line and area charts display how inequality evolved per nation.
+
+3. **Regional Comparison View**  
+   Compare continents (e.g., Asia vs Europe) based on inequality, average income, and population.
+
+4. **Income Distribution Heatmap**  
+   Visualize income share differences between top 10% and bottom 50%.
+
+5. **Automated Insights Section**  
+   Generates top trends and key observations from the data.
+
+6. **Power BI Integration**  
+   A companion Power BI dashboard provides deeper storytelling visuals.
 
 ---
 
 ## 🧩 Project Structure
+
 ├── data/
 │ └── global_income_inequality.csv
-├── streamlit_app.py
 ├── insights/
 │ └── powerbi_dashboard.pbix
+├── streamlit_app.py
 ├── requirements.txt
 
 📁 Dataset Information
 
-The dataset used in this project contains:
+The dataset consists of:
 
 Column	Description
 Country	Name of the country
-Year	Year of data record
-Gini Index	Measure of income inequality (0 = perfect equality, 100 = extreme inequality)
-Average Income	Average annual income per person
+Year	Observation year
+Gini Index	0 (perfect equality) → 100 (extreme inequality)
+Average Income	Per capita income in USD
 Population	Total population of the country
+Region	Continent or economic classification
+
+Data Coverage: 2000–2023
+Records: 4,812
+Format: CSV
